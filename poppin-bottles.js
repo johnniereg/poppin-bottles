@@ -80,7 +80,7 @@ console.log("  BOTTLES: ", totalFromEmpties);
 console.log("  CAPS: ", totalFromCaps);
 }
 
-const investment = process.argv[2];
+const investment = Number(process.argv[2]);
 
 howManyBottles(investment);
 
